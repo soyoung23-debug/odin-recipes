@@ -1,0 +1,1 @@
+The end goal of this project is to build a basic recipe website using HTML, using the skills I've gained from the TOP's discussions. 
