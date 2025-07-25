@@ -1,0 +1,16 @@
+/* banana-cake */
+.container {
+    width: auto;
+    height: auto;
+    border: 10px solid pink;
+    box-sizing: border-box
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+
+}
