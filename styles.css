@@ -2,11 +2,59 @@
 
 body {
     background-color: peachpuff;
-    color: blue;
+    color: skyblue;
     text-align: center;
     margin: center;
     
 
 }
 
-ol list
+h1 {
+    font-family: "Marker Felt";
+    font-size: 50px;
+    
+}
+
+.content {
+    font-family: "Marker Felt", Papyrus, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: maroon;
+    margin: 10px auto;
+    padding: 30px;
+    /* border-style: solid; */
+    
+}
+
+ol {
+    /* border-style: solid; */
+    font-family: Brush Script MT, sans-serif;
+
+}
+
+.list {
+  /* background-color: #04AA6D; Green */
+  width: auto;
+  height: 100px;
+  color: white;
+  padding: 30px 30px; 
+  text-align: center;
+  display: inline-block;
+  margin: -60px auto;
+}
+
+button {
+    font-family: Brush Script MT;
+    font-size: 40px;
+    display: block;
+    margin: 10px auto;
+    background-color: skyblue;
+    border: 2px solid rgb(149, 102, 107);
+}
+
+
+a {
+      text-decoration: none;
+    }
+
+
+
