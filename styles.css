@@ -43,14 +43,14 @@ ol {
 }
 
 button {
-    font-family: Brush Script MT;
+    font-family: "Marker Felt";
     font-size: 40px;
     display: block;
     margin: 10px auto;
     background-color: skyblue;
     border: 2px solid rgb(149, 102, 107);
+    padding: 15px 15px;
 }
-
 
 a {
       text-decoration: none;
