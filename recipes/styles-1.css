@@ -1,9 +1,23 @@
 /* banana-cake */
+* {
+        margin: 0;
+        padding: 0;
+    }
+
 .container {
     width: auto;
     height: auto;
-    border: 10px solid pink;
+    /* border: 5px solid pink; */
     box-sizing: border-box
+    
+    /* color: maroon; */
+    text-align: center; 
+    margin: center;
+    background-color: peachpuff;
+
+    font-family: "Marker Felt";
+    color: maroon;
+    text-align: center;
 }
 
 img {
@@ -12,5 +26,27 @@ img {
     margin: 0 auto;
     display: block;
     object-fit: cover;
+    border-radius: 8px;
 
 }
+
+
+h1 {
+    color: skyblue
+}
+
+.intro {
+    border-style: 10px solid black;
+    margin: 30px auto;
+}
+
+.type {
+    margin: 20px auto;
+}
+
+.steps {
+    list-style: square;
+}
+
+/* add margins on headings
+add number back on ol and spacing per element */
