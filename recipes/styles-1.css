@@ -34,12 +34,15 @@ h1 {
     height: 150px;
     padding: 0px;
     margin: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 400px;
     margin: 0 auto;
     display: inline;
     object-fit: cover;
@@ -58,28 +61,50 @@ img {
     text-align: center;
     /* border-style: solid;
     display: flex; */
+    flex-grow: 5;
 }
 
-.flex {
+/* .flex {
     display: inline;
     align-items: center; 
     grid-template-columns: 5fr 5fr 5fr;
     column-gap: 20px;
     margin: 20px auto;
+} */
+
+.flex-container-1 {
+    display: flex; 
+    border: 4px solid brown;
+    justify-content: center;
+    gap: 20px;
 }
 
-.flex-container {
+.flex-container-1 div {
+    background: skyblue;
+    border: 4px solid brown;
+    height: 100px;
+    width: 100px;
+    display: ;
+    flex: 0.25;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.flex-container-2 {
     /* background: skyblue; */
     border: 4px solid brown;
     height: auto;
     display: inline-flex;
     flex: 0.25;
-    margin: 20px;
+    margin: 10px;
     padding: 20px 40px;
 
 }
 
-
+/* how to put the ingredients on the box below intro */
 
 
 
@@ -99,6 +124,7 @@ ul {
     list-style-type: none;
     /* display: inline-flexbox;
     border-style: solid; */
+    line-height: 1.5;
 
 }
 /* .steps {
@@ -111,6 +137,7 @@ add number back on ol and spacing per element */
 ol {
     list-style-type: decimal;
     list-style-position: inside;
+    line-height: 2.5;
 }
 
 button {
