@@ -11,15 +11,15 @@
   background-color: #5995DA;  /* Blue */
   padding: 20px 0;
   display: flex;
-  justify-content: center; 
-  
+  justify-content: center;
+
 }
 
 .menu {
   /* border: 1px solid #fff;  For debugging */
   width: 900px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   justify-content: space-between;
 }
 
@@ -50,6 +50,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Marker Felt";
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+.content {
+  font-family: "Marker Felt";
+  color: rgb(29, 130, 219);
 }
 
 .recipe-grid-container {
@@ -58,18 +70,35 @@
 }
 
 .recipe-grid {
- width: 900px;
+  width: 1000px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;  
+  align-items: center;
+  font-family: Brush Script MT, sans-serif;
+
 }
+
+button {
+  font-family: "Marker Felt";
+  font-size: 20px;
+  margin: 40% auto;
+  padding: 10px 10px;
+  border-radius: 8px;
+  display: block;
+  border: 2px solid rgb(149, 102, 107);
+  background-color: skyblue;
+}
+
+a {
+      text-decoration: none;
+    }
 
 .recipe-item {
  border: 1px solid #fff;
   width: 300px;
-  height: 300px; 
+  height: 300px;
 }
 
 
@@ -111,21 +140,43 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* banana-cake */
 
 /* previous code before flex */
 /* body {
     background-color: peachpuff;
     color: skyblue;
-    text-align: center; 
+    text-align: center;
     margin: center;
-    
+
 }
 
 h1 {
     font-family: "Marker Felt";
     font-size: 50px;
-    
+
 }
 
 .content {
@@ -136,39 +187,40 @@ h1 {
     padding: 30px;
     text-align: center;
     /* border-style: solid; */
-    
+
 }
 
-ol {
+/* ol {
     /* border-style: solid; */
-    font-family: Brush Script MT, sans-serif;
+    /* font-family: Brush Script MT, sans-serif;
 
-}
+} */ */
 
-.list {
+/* .list {
   /* background-color: #04AA6D; Green */
   width: auto;
   height: 100px;
   color: white;
-  padding: 30px 30px; 
+  padding: 30px 30px;
   text-align: center;
   display: inline-block;
   margin: -60px auto;
-}
+} */
 
-button {
+/* button {
     font-family: "Marker Felt";
     font-size: 20px;
     display: block;
     margin: 10px auto;
-    background-color: skyblue;
+    /* background-color: skyblue;
     border: 2px solid rgb(149, 102, 107);
     padding: 10px 10px;
-    border-radius: 8px;
+    border-radius: 8px; */
     /* text-align: center; */
     transition-duration: 0.3s;
 }
- button:hover{
+
+ /* button:hover{
     background-color: rgb(151, 211, 32); /* Green */
     color: white;
  }
@@ -176,4 +228,4 @@ button {
 a {
       text-decoration: none;
     }
- */
+ */ */ */
